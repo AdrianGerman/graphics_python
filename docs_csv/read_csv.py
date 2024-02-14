@@ -12,5 +12,5 @@ def read_csv(path):
         return data
             
 if __name__ == '__main__':
-    data = read_csv('world_population.csv')
+    data = read_csv('./docs_csv/world_population.csv')
     print(data[0]) 
